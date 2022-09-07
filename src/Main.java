@@ -30,11 +30,11 @@ public class Main {
         city.add(country8);
         city.add(country9);
         System.out.println(" Tapshyrma");
-//        for (Country c : city){
-//
-//            System.out.println(c.getId()+" " + c.getName()+" "+c.getPopulation()+" "+c.getGdp());
-//        }
-//        System.out.println();
+        for (Country c : city){
+
+            System.out.println(c.getId()+" " + c.getName()+" "+c.getPopulation()+" "+c.getGdp());
+        }
+        System.out.println();
 
         city.sort(Country.sortCountryId);
         for (Country c: city) {
